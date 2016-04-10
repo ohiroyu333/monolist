@@ -27,6 +27,8 @@ module Monolist
       g.javascripts false
       g.helper false
       g.test_framework false
+      
+    config.web_console.whitelisted_ips = '123.227.19.185'
     end
   end
 end
